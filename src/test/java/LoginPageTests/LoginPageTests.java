@@ -3,6 +3,8 @@ package LoginPageTests;
 import BaseTests.BaseTests;
 import DataProviders.DataProviders;
 import HomePage.HomePage;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -10,6 +12,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class LoginPageTests extends BaseTests {
+
 
     @BeforeMethod //BeforeMethod to make sure it's in the default state before each data set
     public void getBack()
@@ -20,6 +23,8 @@ public class LoginPageTests extends BaseTests {
     @Test(dataProvider = "valid-user", dataProviderClass = DataProviders.class)
     public void e2eLoginScenario(String user, String passwd)
     {
+
+        logger.info("testing login ✅");
         SoftAssert softAssert = new SoftAssert();
         loginPage.enterName(user);
         loginPage.enterPassword(passwd);

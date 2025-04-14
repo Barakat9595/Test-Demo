@@ -3,11 +3,14 @@ package HomePageTests;
 import BaseTests.BaseTests;
 import DataProviders.DataProviders;
 import HomePage.HomePage;
+import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class HomePageTests extends BaseTests {
+
+
 
     @BeforeMethod //BeforeMethod to make sure it's in the default state before each data set
     public void getBack()
@@ -19,12 +22,14 @@ public class HomePageTests extends BaseTests {
     public void testHome(String username, String passwd)
     {
         SoftAssert softAssert = new SoftAssert();
-        loginPage.enterName(username);
+        logger.info("starting test now");
+       loginPage.enterName(username);
         loginPage.enterPassword(passwd);
         HomePage homePage = loginPage.clickLogin();
         String module = homePage.getModuleName();
         softAssert.assertEquals(module, "not products"); //fails
         softAssert.assertAll();
+
 
 
     }
