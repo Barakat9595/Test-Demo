@@ -20,14 +20,15 @@ public class LoginPageTests extends BaseTests {
      driver.navigate().to("https://www.saucedemo.com/");
     }
 
-    @Test(dataProvider = "valid-user", dataProviderClass = DataProviders.class)
-    public void e2eLoginScenario(String user, String passwd)
+    @Test
+    public void e2eLoginScenario()
     {
 
         logger.info("testing login ✅");
         SoftAssert softAssert = new SoftAssert();
+        String user = System.getProperty("user"); //user value is gotten from the jenkins job
         loginPage.enterName(user);
-        loginPage.enterPassword(passwd);
+        loginPage.enterPassword("secret_sauce");
         HomePage homePage = loginPage.clickLogin();
         softAssert.assertTrue(homePage.getTabTitle().contains("Swag Labs"));
         softAssert.assertAll();

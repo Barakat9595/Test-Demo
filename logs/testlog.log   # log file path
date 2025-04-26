@@ -21,3 +21,36 @@
 2025-04-14 21:48:01,356 [TestNG-test=simple test-2] INFO  HomePageTests.HomePageTests - starting test now
 2025-04-14 21:48:06,027 [TestNG-test=simple test-1] INFO  LoginPageTests.LoginPageTests - browser closed
 2025-04-14 21:48:06,144 [TestNG-test=simple test-2] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 17:46:29,791 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 17:46:34,164 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 17:46:37,482 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 17:46:37,482 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 17:46:40,444 [main] INFO  LoginPageTests.LoginPageTests - testing login ?
+2025-04-26 17:46:43,499 [main] INFO  LoginPageTests.LoginPageTests - browser closed
+2025-04-26 18:26:26,765 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 18:26:31,248 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 18:26:34,465 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 18:26:34,465 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 18:26:37,336 [main] INFO  LoginPageTests.LoginPageTests - testing login ?
+2025-04-26 18:26:40,646 [main] INFO  LoginPageTests.LoginPageTests - browser closed
+2025-04-26 20:00:20,025 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 20:00:26,022 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 20:00:29,673 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 20:00:29,675 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 20:00:37,369 [main] INFO  LoginPageTests.LoginPageTests - browser closed
+2025-04-26 20:02:59,527 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 20:03:04,712 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 20:03:08,369 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 20:03:08,372 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 20:03:14,561 [main] INFO  LoginPageTests.LoginPageTests - browser closed
+2025-04-26 20:05:17,731 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 20:05:22,857 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 20:05:26,471 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 20:05:26,474 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 20:05:31,825 [main] INFO  LoginPageTests.LoginPageTests - browser closed
+2025-04-26 20:08:30,060 [main] INFO  HomePageTests.HomePageTests - ? Starting Browser
+2025-04-26 20:08:34,898 [main] INFO  HomePageTests.HomePageTests - starting test now
+2025-04-26 20:08:38,693 [main] INFO  HomePageTests.HomePageTests - browser closed
+2025-04-26 20:08:38,696 [main] INFO  LoginPageTests.LoginPageTests - ? Starting Browser
+2025-04-26 20:08:42,092 [main] INFO  LoginPageTests.LoginPageTests - testing login ?
+2025-04-26 20:08:45,870 [main] INFO  LoginPageTests.LoginPageTests - browser closed

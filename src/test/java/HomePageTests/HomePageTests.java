@@ -27,7 +27,7 @@ public class HomePageTests extends BaseTests {
         loginPage.enterPassword(passwd);
         HomePage homePage = loginPage.clickLogin();
         String module = homePage.getModuleName();
-        softAssert.assertEquals(module, "not products"); //fails
+        softAssert.assertEquals(module, "Products"); //fails
         softAssert.assertAll();
 
 
